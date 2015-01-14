@@ -1,11 +1,16 @@
 ---
 layout: default
+title: HOME
 ---
 
-<h3>
-    <a id="init" class="anchor" href="#init" aria-hidden="true"><span class="octicon octicon-link"></span></a>INIT</h3>
+{% if site.posts.size > 0 %}
+  {% for page in site.posts %}
+    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <span class="date"><em>{{ page.date | date: "%Y-%m-%d" }}</em></span>
+    <p></p>
+    {{ page.excerpt }}
+  {% endfor %}
+{% else %}
+  <h1>NULL</h1>
+{% endif %}
 
-<pre><code>$ git init
-</code></pre>
-
-<hr>

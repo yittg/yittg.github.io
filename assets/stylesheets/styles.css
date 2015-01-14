@@ -101,6 +101,10 @@ header {
   position:fixed;
 }
 
+header a {
+  color: #222;
+}
+
 header ul {
   list-style:none;
   height:40px;

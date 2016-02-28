@@ -3,6 +3,8 @@ layout: default
 title: HOME
 ---
 
+<h1>Posts</h1>
+
 {% if site.posts.size > 0 %}
   {% for page in site.posts %}
     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
@@ -11,7 +13,15 @@ title: HOME
     {{ page.excerpt }}
   {% endfor %}
 {% else %}
-  <h1><a href='/Snipping'>Snipping</a></h1>
-  <p><small>Edit and run python snippet in realtime</small></p>
+<pre><em>No post</em></pre>
 {% endif %}
+
+<h1>Projects</h1>
+
+<div>
+    <ul>
+        <li><a href='/Snipping'>Snipping</a>:<em> edit and run python snippet in real time.</em>
+        </li>
+    </ul>
+</div>
 

@@ -1,0 +1,8 @@
+title:               Yittg Blog
+description:         '然而'
+url:                 http://yittg.github.io
+baseurl:             ''
+paginate:            5
+
+
+gems: [jekyll-paginate]

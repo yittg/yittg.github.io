@@ -4,5 +4,6 @@ url:                 http://yittg.github.io
 baseurl:             ''
 paginate:            5
 
-
 gems: [jekyll-paginate]
+
+

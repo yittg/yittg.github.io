@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MyBatis 复杂类型
+tags: [java, mybatis]
 ---
 
 在数据类型方面，[MyBatis](http://www.mybatis.org/mybatis-3/) 提供了基本的 `parameterType` 和 `resultType`，基本能大部分的需求。对于更复杂的需求，MyBatis 提供了 `resultMap`, 对于非基本类型的字段提供了 `typeHandler`。

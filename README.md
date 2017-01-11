@@ -1,1 +1,1 @@
-# yittg.github.io
+[Yittg Blog](http://yittg.github.io)
